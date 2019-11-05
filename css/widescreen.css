@@ -1,0 +1,12 @@
+/* Align icon to left */
+#what .items .item {
+  display: flex;
+  text-align: center;
+}
+
+/* Position icon */
+#what .items .item i {
+  align-self: center;
+  margin-bottom: 0;
+  margin-right: 1.3rem;
+}
