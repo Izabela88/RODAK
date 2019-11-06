@@ -80,6 +80,10 @@
   .m-heading {
     font-size: 1.5rem;
   }
+
+  .contact-form {
+    width: 100%;
+  }
 }
 
 @media (max-height: 568px) {
