@@ -84,6 +84,12 @@
   .contact-form {
     width: 100%;
   }
+
+  hr {
+    display: block;
+    border: 0.5px dotted #009846;
+    margin: 15px 0 30px;
+  }
 }
 
 @media (max-height: 568px) {

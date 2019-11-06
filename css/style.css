@@ -17,7 +17,12 @@ a {
 
 p {
   margin: 0.75rem 0;
-  font-size: 17px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+hr {
+  display: none;
 }
 
 /* Utility Classes */
