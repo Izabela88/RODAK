@@ -85,7 +85,7 @@ hr {
   padding: 1.5rem;
 }
 .p-2 {
-  padding: 2rem;
+  padding: 40px;
 }
 .p-3 {
   padding: 3rem;
@@ -153,6 +153,7 @@ hr {
     center/cover;
   height: 100vh;
   color: #fff;
+  text-align: center;
 }
 
 #showcase .showcase-content {
@@ -162,11 +163,11 @@ hr {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 0 2rem;
+  padding: 0 2.5rem;
 
   /* Overlay */
   position: absolute;
-  top: 76.38px;
+  top: 76px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -183,7 +184,7 @@ hr {
 #what .items .item {
   flex: 1;
   text-align: center;
-  padding: 1rem;
+  padding: 36px;
 }
 
 #what .items .item i {
@@ -275,9 +276,13 @@ hr {
   text-align: center;
 }
 
-.fab {
-  font-size: 30px;
-  color: #009846;
+.fa-facebook-square {
+  font-size: 40px;
+  color: #4267b2;
+}
+
+.fa-facebook-square:hover {
+  color: #164ebf;
 }
 
 /* Footer */
@@ -286,4 +291,45 @@ hr {
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
+}
+
+/* Social Media Sticky */
+
+.icon-bar {
+  position: fixed;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1600;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 0px 10px 0px 9px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  height: 43px;
+  width: 38px;
+}
+
+.icon-bar i {
+  top: 8px;
+  position: relative;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
 }

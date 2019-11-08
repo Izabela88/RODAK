@@ -44,7 +44,7 @@
   }
 
   #showcase .showcase-content {
-    top: 125px;
+    top: 124px;
   }
 
   #prices {
@@ -90,12 +90,37 @@
     border: 0.5px dotted #009846;
     margin: 15px 0 30px;
   }
+
+  .l-heading {
+    font-size: 20px;
+  }
+
+  .lead {
+    font-size: 15px;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    margin-bottom: 140px;
+  }
+
+  .btn-contact {
+    margin-bottom: 45px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  i {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-height: 568px) {
   #showcase .showcase-content {
     margin-top: -2rem;
-    top: 140px;
+    top: 60px;
   }
 
   .l-heading {
